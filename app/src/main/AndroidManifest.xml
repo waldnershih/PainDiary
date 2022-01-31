@@ -13,9 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PainDiary">
-        <activity android:name=".activity.HomeActivity" android:theme="@style/Theme.NavigationJava.NoActionBar"/>
+        <activity android:name=".activity.MainActivity" android:theme="@style/Theme.NavigationJava.NoActionBar"/>
         <activity android:name=".activity.SignupActivity" android:theme="@style/Theme.NavigationJava.NoActionBar"/>
-        <activity android:name=".activity.MainActivity"
+        <activity android:name=".activity.HomeActivity"
             android:theme="@style/Theme.NavigationJava.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
