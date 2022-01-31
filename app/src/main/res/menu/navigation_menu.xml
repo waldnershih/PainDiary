@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_pain_data_entry_fragment"
+            android:title="Pain Data Entry" />
+        <item
+            android:id="@+id/nav_daily_record_fragment"
+            android:title="Daily Record" />
+        <item
+            android:id="@+id/nav_report_fragment"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_map_fragment"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_work_manager_fragment"
+            android:title="Work Manager" />
+        <item
+            android:id="@+id/nav_signout_fragment"
+            android:title="Sign out" />
+    </group>
+</menu>

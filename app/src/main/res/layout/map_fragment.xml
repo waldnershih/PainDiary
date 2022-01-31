@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/purple_500" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_background"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editAddress"
+            android:layout_width="324dp"
+            android:layout_height="65dp"
+            android:hint="Please give your home address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="337dp"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_end_color"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="58dp"
+            android:layout_height="63dp"
+            android:layout_margin="1dp"
+            android:src="@drawable/search" />
+
+        <ImageView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/purple_500" />
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="635dp" />
+
+
+</LinearLayout>
